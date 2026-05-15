@@ -1,0 +1,14 @@
+name: nyc_taxi_project
+version: '1.0.0'
+profile: nyc_taxi_project
+model-paths: ["models"]
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  nyc_taxi_project:
+    staging:
+      +schema: staging
+      +materialized: view
+    analytics:
+      +schema: analytics
+      +materialized: table
