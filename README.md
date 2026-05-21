@@ -116,3 +116,8 @@ python -m ingestion.quality_checks
 ## 👨‍💻 Author
 
 Built as part of a data engineering portfolio project.
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![dbt](https://img.shields.io/badge/dbt-1.11-orange)
+![Postgres](https://img.shields.io/badge/PostgreSQL-16-blue)
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
