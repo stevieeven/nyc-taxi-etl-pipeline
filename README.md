@@ -20,6 +20,10 @@ graph TD
     F --> G[Analytics Output]
 ```
 
+## 📸 dbt Lineage
+
+![Lineage](docs/screenshots/dbt-lineage.png)
+
 ## 🛠️ Tech Stack
 
 * Python
