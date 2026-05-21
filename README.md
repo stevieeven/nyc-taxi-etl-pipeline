@@ -18,6 +18,7 @@ graph TD
     D --> E[dbt Analytics Model]
     E --> F[Data Quality Tests]
     F --> G[Analytics Output]
+```
 
 ## 🛠️ Tech Stack
 
