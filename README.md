@@ -8,19 +8,16 @@ The pipeline extracts raw data, loads it into a PostgreSQL warehouse, transforms
 
 ---
 
-## 🏗️ Architecture
+## 🧭 Architecture (Visual)
 
-```
-NYC TLC Data → Python Ingestion → PostgreSQL (raw)
-                                   ↓
-                               dbt (staging)
-                                   ↓
-                               dbt (analytics)
-                                   ↓
-                           Data Quality Tests
-```
-
----
+```mermaid
+graph TD
+    A[NYC TLC Dataset] --> B[Python Ingestion]
+    B --> C[PostgreSQL Raw Layer]
+    C --> D[dbt Staging Model]
+    D --> E[dbt Analytics Model]
+    E --> F[Data Quality Tests]
+    F --> G[Analytics Output]
 
 ## 🛠️ Tech Stack
 
